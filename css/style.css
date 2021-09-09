@@ -550,6 +550,7 @@ input:-webkit-autofill:active {
   color: #fff;
   border-color: #fff;
 }
+
 .block__ico {
   width: 73px;
   height: 73px;
@@ -571,6 +572,10 @@ input:-webkit-autofill:active {
 .block__botton:hover {
   background-color: #ffa62b;
   color: #fff;
+}
+.block__botton--sort:hover {
+  background-color: #fff;
+  color: #252b42;
 }
 .footer {
   background-color: #fff;
