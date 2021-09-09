@@ -734,8 +734,8 @@ input:-webkit-autofill:active {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: rgb(0, 0, 0);
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.9);
     overflow-y: hidden;
     transition: 0.5s;
   }
@@ -756,7 +756,7 @@ input:-webkit-autofill:active {
   }
   .header__menu a:hover,
   .header__menu a:focus {
-    color: #f1f1f1;
+    color: #b6b6b6e5;
   }
   .header__menu {
     position: absolute;
