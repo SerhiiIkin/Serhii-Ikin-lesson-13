@@ -657,6 +657,10 @@ input:-webkit-autofill:active {
 .footer-link img {
   height: 24px;
 }
+.footer-link svg {
+  height: 24px;
+  width: 32px;
+}
 
 @media (max-width: 1200px) {
   .container {
