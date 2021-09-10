@@ -719,6 +719,11 @@ input:-webkit-autofill:active {
     padding-bottom: 20px;
   }
 }
+@media (max-width: 992px) and (min-width: 767px) {
+  .block__botton {
+    width: 108%;
+  }
+}
 @media (max-width: 767px) {
   .container {
     max-width: none;
