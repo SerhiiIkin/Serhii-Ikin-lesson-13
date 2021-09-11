@@ -294,6 +294,9 @@ a {
 .practice {
   background-color: #fafafa;
 }
+.contant__item {
+  padding: 30px;
+}
 .contant__block--practice {
   flex-direction: column-reverse;
   padding: 0px;
@@ -313,8 +316,9 @@ a {
   background-color: #fafafa;
 }
 .contant__block--practice img {
-  max-width: 100%;
+  width: 100%;
   margin-top: auto;
+  object-fit: cover;
 }
 .contant__header--practice {
   padding: 45px 0;
@@ -728,7 +732,7 @@ input:-webkit-autofill:active {
   .container {
     max-width: 750px;
   }
-  .contant__container-50 {
+  .contant__container-25 {
     width: 50%;
     margin-bottom: 30px;
   }
@@ -907,10 +911,6 @@ input:-webkit-autofill:active {
     width: 100%;
     text-align: left;
     align-items: flex-start;
-  }
-  .contant__block--practice img {
-    width: 100%;
-    object-fit: cover;
   }
   .service__subtitle {
     max-width: 270px;
